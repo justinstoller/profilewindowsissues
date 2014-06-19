@@ -1,0 +1,9 @@
+```bash
+  bundle install
+```
+
+```bash
+  bundle exec beaker -o options.rb
+```
+
+You should be able to RDP to the box after the tests complete and view the tracing info for the time sync
