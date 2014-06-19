@@ -1,9 +1,9 @@
-```bash
-  bundle install
-```
 
-```bash
+  bundle install
   bundle exec beaker -o options.rb
-```
 
 You should be able to RDP to the box after the tests complete and view the tracing info for the time sync
+
+For more info on ETW see:
+  http://blogs.technet.com/b/netmon/archive/2009/05/13/event-tracing-for-windows-and-network-monitor.aspx
+  http://msdn.microsoft.com/en-us/library/windows/desktop/bb968803(v=vs.85).aspx
